@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "module": "es6",
+      "target": "es5",
+      "sourceMap": true, 
+      "outDir": "./" ,
+      "noImplicitAny": true
+    },
+    "exclude": [
+      "node_modules"
+    ],
+    "include": [
+      "C:/Users/RegineThimothee/Desktop/trainFiles/testThree.ts"
+    ]
+  }

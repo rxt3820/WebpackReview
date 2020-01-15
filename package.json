@@ -1,0 +1,21 @@
+{
+  "name": "trainconfig",
+  "version": "1.0.0",
+  "description": "test json file to see if i can automatically compile",
+  "main": "testThree.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Regine",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}

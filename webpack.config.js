@@ -1,9 +1,10 @@
+const path = require('path');
+
 module.exports = {
-    entry: 'C:/Users/RegineThimothee/Desktop/trainFiles/testThree.ts',
+    entry: './testThree.ts',
     output: {
         filename: 'bundle.js',
-        path: __dirname //absoulte path
-        //bundle.js file is not being created
+        path: path.join(__dirname, 'dist')
     },
     module: {
         rules: [
